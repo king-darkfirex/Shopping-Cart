@@ -1,0 +1,17 @@
+@media (max-width: 1000px){
+    .shop {
+        display: grid;
+        grid-template-columns: repeat(2, 223px);
+        gap: 40px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px){
+    .shop{
+        display: grid;
+        grid-template-columns: repeat(1, 223px);
+        gap: 40px;
+        justify-content: center;
+    }
+}
